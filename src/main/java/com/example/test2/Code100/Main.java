@@ -1,39 +1,33 @@
 package com.example.test2.Code100;
-
 import java.util.Scanner;
 
-//public class Main {
-//}
+public class Main {
+}
 
-//    1번문제
-//    System.out.println("Hello");
-//    2번문제
-//    System.out.println("Hello World");
-//    3번문제
-//    System.out.println("Hello\nWorld");
-//    4번문제
-//    System.out.println("'Hello'");
-//    5번문제
-//    System.out.println("\"Hello World\"");
-//    6번문제
-//    System.out.println("\"!@#$%^&*()\"");
-//    7번문제
-//    System.out.println("\"C:\\Download\\hello.cpp\"");
-//    8번문제
-//    System.out.printf("\u250c");
-//    System.out.printf("\u252c");
-//    System.out.println("\u2510");
-//    System.out.printf("\u251c");
-//    System.out.printf("\u253c");
-//    System.out.println("\u2524");
-//    System.out.printf("\u2514");
-//    System.out.printf("\u2534");
-//    System.out.printf("\u2518");
-
-
-
-
-
+    1번문제
+    System.out.println("Hello");
+    2번문제
+    System.out.println("Hello World");
+    3번문제
+    System.out.println("Hello\nWorld");
+    4번문제
+    System.out.println("'Hello'");
+    5번문제
+    System.out.println("\"Hello World\"");
+    6번문제
+    System.out.println("\"!@#$%^&*()\"");
+    7번문제
+    System.out.println("\"C:\\Download\\hello.cpp\"");
+    8번문제
+    System.out.printf("\u250c");
+    System.out.printf("\u252c");
+    System.out.println("\u2510");
+    System.out.printf("\u251c");
+    System.out.printf("\u253c");
+    System.out.println("\u2524");
+    System.out.printf("\u2514");
+    System.out.printf("\u2534");
+    System.out.printf("\u2518");
 
 //    9번문제
 //    10번문제
