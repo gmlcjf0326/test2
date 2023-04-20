@@ -1,41 +1,63 @@
 package com.example.test2.Code100;
 import java.util.Scanner;
 
-public class Main {
-}
+//    1번문제
+//    System.out.println("Hello");
+//    2번문제
+//    System.out.println("Hello World");
+//    3번문제
+//    System.out.println("Hello\nWorld");
+//    4번문제
+//    System.out.println("'Hello'");
+//    5번문제
+//    System.out.println("\"Hello World\"");
+//    6번문제
+//    System.out.println("\"!@#$%^&*()\"");
+//    7번문제
+//    System.out.println("\"C:\\Download\\hello.cpp\"");
+//    8번문제
+//    System.out.printf("\u250c");
+//    System.out.printf("\u252c");
+//    System.out.println("\u2510");
+//    System.out.printf("\u251c");
+//    System.out.printf("\u253c");
+//    System.out.println("\u2524");
+//    System.out.printf("\u2514");
+//    System.out.printf("\u2534");
+//    System.out.printf("\u2518");
 
-    1번문제
-    System.out.println("Hello");
-    2번문제
-    System.out.println("Hello World");
-    3번문제
-    System.out.println("Hello\nWorld");
-    4번문제
-    System.out.println("'Hello'");
-    5번문제
-    System.out.println("\"Hello World\"");
-    6번문제
-    System.out.println("\"!@#$%^&*()\"");
-    7번문제
-    System.out.println("\"C:\\Download\\hello.cpp\"");
-    8번문제
-    System.out.printf("\u250c");
-    System.out.printf("\u252c");
-    System.out.println("\u2510");
-    System.out.printf("\u251c");
-    System.out.printf("\u253c");
-    System.out.println("\u2524");
-    System.out.printf("\u2514");
-    System.out.printf("\u2534");
-    System.out.printf("\u2518");
-
-//    9번문제
 //    10번문제
+//    Scanner sc = new Scanner(System.in);
+//    System.out.printf("%d", sc.nextInt());
+
 //    11번문제
+//    Scanner sc = new Scanner(System.in);
+//    System.out.printf("%c", sc.next().charAt(0));
+
 //    12번문제
+//    Scanner sc = new Scanner(System.in);
+//    System.out.printf("%f", sc.nextFloat());
+
 //    13번문제
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        System.out.printf("%d %d", a, b);
+
 //    14번문제
-//    15번문제
+//    Scanner sc = new Scanner(System.in);
+//    int val1 = sc.next().charAt(0);
+//    int val2 = sc.next().charAt(0);
+//    System.out.printf("%c %c", val2, val1);
+
+//    15번문제 완료!
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    float val1 = sc.nextFloat();
+    System.out.printf("%.3f", val1);
+  }
+}
 //    16번문제
 //    17번문제
 //    18번문제
