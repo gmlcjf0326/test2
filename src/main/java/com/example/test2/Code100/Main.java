@@ -49,18 +49,24 @@ import java.util.Scanner;
 //    int val1 = sc.next().charAt(0);
 //    int val2 = sc.next().charAt(0);
 //    System.out.printf("%c %c", val2, val1);
-
 //    15번문제 완료!
+//    Scanner sc = new Scanner(System.in);
+//    float val1 = sc.nextFloat();
+//    System.out.printf("%.3f", val1);//
+//    17번문제
+//    Scanner sc = new Scanner(System.in);
+//    int val1 = sc.nextInt();
+//    System.out.printf("%d %d %d", val1, val1, val1);
+
 public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    float val1 = sc.nextFloat();
-    System.out.printf("%.3f", val1);
+    int data1 = sc.nextInt();
+    int data2 = sc.nextInt();
+    System.out.printf("%d:%d", data1, data2);
   }
 }
-//    16번문제
-//    17번문제
-//    18번문제
+
 //    19번문제
 //    20번문제
 //    21번문제

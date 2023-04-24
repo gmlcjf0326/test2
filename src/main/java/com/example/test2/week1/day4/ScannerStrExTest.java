@@ -1,6 +1,4 @@
-package com.example.test2.week1;
-
-import java.util.Scanner;
+package com.example.test2.week1.day4;
 
 public class ScannerStrExTest {
   public static void main(String[] args) {

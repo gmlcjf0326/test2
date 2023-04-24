@@ -1,10 +1,10 @@
-package com.example.test2.week1;
+package com.example.test2.week1.day4;
 
 import java.io.IOException;
 
 public class BufferedReaderExTest {
   public static void main(String[] args) throws IOException {
-    com.example.demo1.week1.BufferedReaderEx bufferedReaderEx = new com.example.demo1.week1.BufferedReaderEx();
+    BufferedReaderEx bufferedReaderEx = new BufferedReaderEx();
     bufferedReaderEx.readALine();
   }
 }

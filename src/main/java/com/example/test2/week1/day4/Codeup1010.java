@@ -1,6 +1,6 @@
 // 숫자 입력하여 출력받기.
 
-package com.example.test2.week1;
+package com.example.test2.week1.day4;
 
 import java.util.Scanner;
 
