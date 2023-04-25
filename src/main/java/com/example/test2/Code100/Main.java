@@ -1,92 +1,49 @@
 package com.example.test2.Code100;
+
 import java.util.Scanner;
-
-//    1번문제
-//    System.out.println("Hello");
-//    2번문제
-//    System.out.println("Hello World");
-//    3번문제
-//    System.out.println("Hello\nWorld");
-//    4번문제
-//    System.out.println("'Hello'");
-//    5번문제
-//    System.out.println("\"Hello World\"");
-//    6번문제
-//    System.out.println("\"!@#$%^&*()\"");
-//    7번문제
-//    System.out.println("\"C:\\Download\\hello.cpp\"");
-//    8번문제
-//    System.out.printf("\u250c");
-//    System.out.printf("\u252c");
-//    System.out.println("\u2510");
-//    System.out.printf("\u251c");
-//    System.out.printf("\u253c");
-//    System.out.println("\u2524");
-//    System.out.printf("\u2514");
-//    System.out.printf("\u2534");
-//    System.out.printf("\u2518");
-
-//    10번문제
+//    31번문제
+//  Scanner sc = new Scanner(System.in);
+//      int a = sc.nextInt();
+//      System.out.printf("%o", a);
+//    32번문제
+//  Scanner sc = new Scanner(System.in);
+//      int a = sc.nextInt();
+//      System.out.printf("%x", a);
+//    33번문제
+//  Scanner sc = new Scanner(System.in);
+//      int a = sc.nextInt();
+//      System.out.printf("%X", a);
+//    34번문제
 //    Scanner sc = new Scanner(System.in);
-//    System.out.printf("%d", sc.nextInt());
-
-//    11번문제
+//        String octal = sc.next();
+//        int decimal = Integer.parseInt(octal, 8);
+//        System.out.println(decimal);
+//    35번문제
 //    Scanner sc = new Scanner(System.in);
-//    System.out.printf("%c", sc.next().charAt(0));
-
-//    12번문제
+//        String octal = sc.next();
+//        int decimal = Integer.parseInt(octal, 16);
+//        System.out.printf("%o", decimal);
+//    36번문제
 //    Scanner sc = new Scanner(System.in);
-//    System.out.printf("%f", sc.nextFloat());
-
-//    13번문제
-//        Scanner sc = new Scanner(System.in);
-//        int a = sc.nextInt();
-//        int b = sc.nextInt();
-//        System.out.printf("%d %d", a, b);
-
-//    14번문제
+//        char octal = sc.next().charAt(0);
+//        int asci = (int) octal;
+//        System.out.printf("%d", asci);
+//    37번문제
 //    Scanner sc = new Scanner(System.in);
-//    int val1 = sc.next().charAt(0);
-//    int val2 = sc.next().charAt(0);
-//    System.out.printf("%c %c", val2, val1);
-//    15번문제 완료!
-//    Scanner sc = new Scanner(System.in);
-//    float val1 = sc.nextFloat();
-//    System.out.printf("%.3f", val1);//
-//    17번문제
-//    Scanner sc = new Scanner(System.in);
-//    int val1 = sc.nextInt();
-//    System.out.printf("%d %d %d", val1, val1, val1);
-
+//        int desimal = sc.nextInt();
+//        char asci = (char) desimal;
+//        System.out.printf("%c", asci);
+//    38번문제
 public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int data1 = sc.nextInt();
-    int data2 = sc.nextInt();
-    System.out.printf("%d:%d", data1, data2);
+    int desimal = sc.nextInt();
+    char asci = (char) desimal;
+    System.out.printf("%c", asci);
   }
 }
 
-//    19번문제
-//    20번문제
-//    21번문제
-//    22번문제
-//    23번문제
-//    24번문제
-//    25번문제
-//    26번문제
-//    27번문제
-//    28번문제
-//    29번문제
-//    30번문제
-//    31번문제
-//    32번문제
-//    33번문제
-//    34번문제
-//    35번문제
-//    36번문제
-//    37번문제
-//    38번문제
+
 //    39번문제
 //    40번문제
 //    41번문제
@@ -161,3 +118,77 @@ public class Main {
 //    98번문제
 //    99번문제
 //    100번문제
+
+
+
+
+//    1번문제
+//    System.out.println("Hello");
+//    2번문제
+//    System.out.println("Hello World");
+//    3번문제
+//    System.out.println("Hello\nWorld");
+//    4번문제
+//    System.out.println("'Hello'");
+//    5번문제
+//    System.out.println("\"Hello World\"");
+//    6번문제
+//    System.out.println("\"!@#$%^&*()\"");
+//    7번문제
+//    System.out.println("\"C:\\Download\\hello.cpp\"");
+//    8번문제
+//    System.out.printf("\u250c");
+//    System.out.printf("\u252c");
+//    System.out.println("\u2510");
+//    System.out.printf("\u251c");
+//    System.out.printf("\u253c");
+//    System.out.println("\u2524");
+//    System.out.printf("\u2514");
+//    System.out.printf("\u2534");
+//    System.out.printf("\u2518");
+
+//    10번문제
+//    Scanner sc = new Scanner(System.in);
+//    System.out.printf("%d", sc.nextInt());
+
+//    11번문제
+//    Scanner sc = new Scanner(System.in);
+//    System.out.printf("%c", sc.next().charAt(0));
+
+//    12번문제
+//    Scanner sc = new Scanner(System.in);
+//    System.out.printf("%f", sc.nextFloat());
+
+//    13번문제
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        System.out.printf("%d %d", a, b);
+
+//    14번문제
+//    Scanner sc = new Scanner(System.in);
+//    int val1 = sc.next().charAt(0);
+//    int val2 = sc.next().charAt(0);
+//    System.out.printf("%c %c", val2, val1);
+//    15번문제 완료!
+//    Scanner sc = new Scanner(System.in);
+//    float val1 = sc.nextFloat();
+//    System.out.printf("%.3f", val1);//
+//    17번문제
+//    Scanner sc = new Scanner(System.in);
+//    int val1 = sc.nextInt();
+//    System.out.printf("%d %d %d", val1, val1, val1);
+//    18번문제
+//    public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int data1 = sc.nextInt();
+//    int data2 = sc.nextInt();
+//    System.out.printf("%d:%d", data1, data2);
+//    21, 22번문제
+//    Scanner sc = new Scanner(System.in);
+//        String data2 = sc.nextLine();
+//        System.out.printf("%s", data2);
+//        }
+//    23번문제
+//    float a = sc.nextFloat();
+//    System.out.printf("%f", a);
