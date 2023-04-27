@@ -1,29 +1,27 @@
 package com.example.test2.Code100;
-
 import java.util.Scanner;
-
 public class Main {
-  public static void main(String[] args) {
-
-//    52번문제
+//    64번문제
+//  public static void main(String[] args) {
 //    Scanner sc = new Scanner(System.in);
-//    int inputA = sc.nextInt();
-//    int inputb = sc.nextInt();
-//    System.out.printf("%d\n", a != b ? 1 : 0);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    int c = sc.nextInt();
+//
+//    int min = (a < b) ? (a < c ? a : c) : (b < c ? b : c);
+//    System.out.println(min);
+//  }
+//}
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
 
+    int min = (a < b) ? (a < c ? a : c) : (b < c ? b : c);
+    System.out.println(min);
   }
 }
-
-//    53번문제
-//    54번문제
-//    55번문제
-//    56번문제
-//    57번문제
-//    58번문제
-//    59번문제
-//    60번문제
-//    61번문제
-//    62번문제
 //    63번문제
 //    64번문제
 //    65번문제
@@ -332,3 +330,72 @@ public class Main {
 //    int a = sc.nextInt();
 //    int b = sc.nextInt();
 //    System.out.printf("%d\n", a != b ? 1 : 0);
+
+//    53번문제
+//    Scanner sc = new Scanner(System.in);
+//    int inputA = sc.nextInt();
+//    if(inputA == 1){
+//      inputA = 0;
+//      System.out.println(inputA);
+//    }else if(inputA == 0) {
+//      inputA = 1;
+//      System.out.println(inputA);
+//    } else {
+//      return;
+//    }
+
+
+//    55번문제
+//      Scanner scanner = new Scanner(System.in);
+//      int a = scanner.nextInt();
+//      int b = scanner.nextInt();
+//      System.out.println(a == 1 || b == 1 ? 1 : 0);
+
+//    56번문제
+//      Scanner scanner = new Scanner(System.in);
+//      int a = scanner.nextInt();
+//      int b = scanner.nextInt();
+//      System.out.println(a == 1 ^ b == 1 ? 1 : 0);
+
+//    57번문제
+  //  Scanner scanner = new Scanner(System.in);
+  //  int a = scanner.nextInt();
+  //  int b = scanner.nextInt();
+  //  if((a == 1 && b == 1)||(a == 0 && b == 0)){
+  //    System.out.println(1);
+  //    }else {
+  //    System.out.println(0);
+
+//    58번문제
+//    Scanner scanner = new Scanner(System.in);
+//    int a = scanner.nextInt();
+//    int b = scanner.nextInt();
+//    if(a == 0 && b == 0){
+//      System.out.println(1);
+//    }else {
+//      System.out.println(0);
+//    }
+//    59번문제
+//        Scanner scanner = new Scanner(System.in);
+//        int a = scanner.nextInt();
+//        System.out.println(~a);
+//      }
+//    }
+
+//    60번문제
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        System.out.printf("%d", a & b);
+
+//    61번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d", a | b);
+
+//    62번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d", a ^ b);
