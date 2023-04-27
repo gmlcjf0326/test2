@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
+
 //    52번문제
 //    Scanner sc = new Scanner(System.in);
 //    int inputA = sc.nextInt();
 //    int inputb = sc.nextInt();
 //    System.out.printf("%d\n", a != b ? 1 : 0);
+
   }
 }
 
