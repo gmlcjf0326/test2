@@ -1,57 +1,17 @@
 package com.example.test2.Code100;
 
-import java.util.Arrays;
 import java.util.Scanner;
-public class Main {
-//  23번문제 ~ 30번문제 x
-  public static void main(String[] args) {
 
-//    43번문제
+public class Main {
+  public static void main(String[] args) {
+//    52번문제
 //    Scanner sc = new Scanner(System.in);
 //    int a = sc.nextInt();
 //    int b = sc.nextInt();
-//    int outputNum = a%b;
-//    System.out.printf("%d", outputNum);
-
-//    44번문제
-//    Scanner sc = new Scanner(System.in);
-//    long a = sc.nextLong();
-//    System.out.printf("%d", ++a);
-//    45번문제
-//        Scanner sc = new Scanner(System.in);
-//        int inputNum1 = sc.nextInt();
-//        int inputNum2 = sc.nextInt();
-//        System.out.printf("%d\n", inputNum1+inputNum2);
-//        System.out.printf("%d\n", inputNum1-inputNum2);
-//        System.out.printf("%d\n", inputNum1*inputNum2);
-//        System.out.printf("%d\n", inputNum1/inputNum2);
-//        System.out.printf("%d\n", inputNum1%inputNum2);
-//        System.out.printf("%.2f\n", (float)inputNum1%inputNum2);
-//    46번문제
-//    Scanner sc = new Scanner(System.in);
-//    String[] inputString = sc.nextLine().split(" ");
-//    long inputNum1 = Long.parseLong(inputString[0]);
-//    long inputNum2 = Long.parseLong(inputString[1]);
-//    long inputNum3 = Long.parseLong(inputString[2]);
-//    System.out.printf("%d\n", inputNum1+inputNum2+inputNum3);
-//    System.out.printf("%.1f\n", (float)(inputNum1+inputNum2+inputNum3)/3);
-
-    Scanner sc = new Scanner(System.in);
-    String[] inputString = sc.nextLine().split(" ");
-    long inputNum1 = Long.parseLong(inputString[0]);
-    long inputNum2 = Long.parseLong(inputString[1]);
-    long inputNum3 = Long.parseLong(inputString[2]);
-    System.out.printf("%d\n", inputNum1+inputNum2+inputNum3);
-    System.out.printf("%.1f\n", (float)(inputNum1+inputNum2+inputNum3)/3);
+//    System.out.printf("%d\n", a != b ? 1 : 0);
   }
 }
-//    47번문제
 
-//    48번문제
-//    49번문제
-//    50번문제
-//    51번문제
-//    52번문제
 //    53번문제
 //    54번문제
 //    55번문제
@@ -307,3 +267,66 @@ public class Main {
 //    int b = sc.nextInt();
 //    int outputNum = a/b;
 //    System.out.printf("%d", outputNum);
+
+//    43번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    int outputNum = a%b;
+//    System.out.printf("%d", outputNum);
+
+//    44번문제
+//    Scanner sc = new Scanner(System.in);
+//    long a = sc.nextLong();
+//    System.out.printf("%d", ++a);
+//    45번문제
+//        Scanner sc = new Scanner(System.in);
+//        int inputNum1 = sc.nextInt();
+//        int inputNum2 = sc.nextInt();
+//        System.out.printf("%d\n", inputNum1+inputNum2);
+//        System.out.printf("%d\n", inputNum1-inputNum2);
+//        System.out.printf("%d\n", inputNum1*inputNum2);
+//        System.out.printf("%d\n", inputNum1/inputNum2);
+//        System.out.printf("%d\n", inputNum1%inputNum2);
+//        System.out.printf("%.2f\n", (float)inputNum1%inputNum2);
+//    46번문제
+//    Scanner sc = new Scanner(System.in);
+//    String[] inputString = sc.nextLine().split(" ");
+//    long inputNum1 = Long.parseLong(inputString[0]);
+//    long inputNum2 = Long.parseLong(inputString[1]);
+//    long inputNum3 = Long.parseLong(inputString[2]);
+//    System.out.printf("%d\n", inputNum1+inputNum2+inputNum3);
+//    System.out.printf("%.1f\n", (float)(inputNum1+inputNum2+inputNum3)/3);
+//    47번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    System.out.printf("%d\n", a<<1);
+//    48번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d\n", a<<b); // a x 2의 b승 곱합
+//    System.out.printf("%d\n", a>>b); // a x 1/2의 b승 곱합
+//    49번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d\n", a > b ? 1 : 0);
+
+//    50번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d\n", a == b ? 1 : 0);
+
+//    51번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d\n", a <= b ? 1 : 0);
+
+//    52번문제
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    System.out.printf("%d\n", a != b ? 1 : 0);
