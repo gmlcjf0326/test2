@@ -1,35 +1,49 @@
 package com.example.test2.Code100;
 import java.util.Scanner;
 public class Main {
-//    64번문제
-//  public static void main(String[] args) {
-//    Scanner sc = new Scanner(System.in);
-//    int a = sc.nextInt();
-//    int b = sc.nextInt();
-//    int c = sc.nextInt();
-//
-//    int min = (a < b) ? (a < c ? a : c) : (b < c ? b : c);
-//    System.out.println(min);
+  public static void main(String[] args) {
+//    1103번 문제
+//    System.out.printf("\"c:\\test\"");
+//    1106번 문제
+//    int minNum = Integer.MIN_VALUE;
+//    int maxNum = Integer.MAX_VALUE;
+//    System.out.printf("%d %d", minNum, maxNum);
 //  }
 //}
-  public static void main(String[] args) {
+//  1071번 문제
+//    Scanner sc = new Scanner(System.in);
+//    int n = sc.nextInt();
+//    for (int i = n; n != 0;) {
+//      System.out.println(n);
+//      n = sc.nextInt();
+//    }
+//  }
+//  }
+//  1072번 문제
     Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
-
-    int min = (a < b) ? (a < c ? a : c) : (b < c ? b : c);
-    System.out.println(min);
+    int n = sc.nextInt();
+    int m;
+    for (int i = 1; i <= n; i++) {
+      m = sc.nextInt();
+      System.out.println(m);
+    }
   }
 }
-//    63번문제
-//    64번문제
-//    65번문제
-//    66번문제
-//    67번문제
-//    68번문제
-//    69번문제
-//    70번문제
+
+//// 1122번 문제
+//    Scanner sc = new Scanner(System.in);
+//    int input1 = sc.nextInt();
+//    System.out.printf("%d %d\n", input1/60, input1 % 60);
+//
+//  }
+//}
+//// 1123번 문제
+//    Scanner sc = new Scanner(System.in);
+//    float input1 = sc.nextFloat();
+//    System.out.printf("%.3f\n", ((9/5 * input1 + 32)));
+//
+//  }
+//}
 //    71번문제
 //    72번문제
 //    73번문제
@@ -358,13 +372,13 @@ public class Main {
 //      System.out.println(a == 1 ^ b == 1 ? 1 : 0);
 
 //    57번문제
-  //  Scanner scanner = new Scanner(System.in);
-  //  int a = scanner.nextInt();
-  //  int b = scanner.nextInt();
-  //  if((a == 1 && b == 1)||(a == 0 && b == 0)){
-  //    System.out.println(1);
-  //    }else {
-  //    System.out.println(0);
+//  Scanner scanner = new Scanner(System.in);
+//  int a = scanner.nextInt();
+//  int b = scanner.nextInt();
+//  if((a == 1 && b == 1)||(a == 0 && b == 0)){
+//    System.out.println(1);
+//    }else {
+//    System.out.println(0);
 
 //    58번문제
 //    Scanner scanner = new Scanner(System.in);
@@ -399,3 +413,165 @@ public class Main {
 //    int a = sc.nextInt();
 //    int b = sc.nextInt();
 //    System.out.printf("%d", a ^ b);
+
+//    66번문제
+
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    int c = sc.nextInt();
+//    if (a % 2 == 0) {
+//      System.out.println("even");
+//    } else {
+//      System.out.println("odd");
+//    }
+//    if (b % 2 == 0) {
+//      System.out.println("even");
+//    } else {
+//      System.out.println("odd");
+//    }
+//    if (c % 2 == 0) {
+//      System.out.println("even");
+//    } else {
+//      System.out.println("odd");
+//    }
+//  }
+//}
+
+//    64번문제
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    int b = sc.nextInt();
+//    int c = sc.nextInt();
+//
+//    int min = (a < b) ? (a < c ? a : c) : (b < c ? b : c);
+//    System.out.println(min);
+//  }
+//}
+//    67번문제
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int a = sc.nextInt();
+//    if(a >= 0){
+//      System.out.println("plus");
+//      if (a % 2 == 0) {
+//        System.out.println("even");
+//      } else {
+//        System.out.println("odd");
+//      }
+//    } else {
+//      System.out.println("minus");
+//      if (a % 2 == 0) {
+//        System.out.println("even");
+//      } else {
+//        System.out.println("odd");
+//      }
+//    }
+//  }
+//}
+//    68번문제
+//    69번문제
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    char input1 = sc.nextLine().charAt(0);
+//    switch (input1){
+//      case 'A' :
+//        System.out.println("best!!!");
+//        break;
+//      case 'B' :
+//        System.out.println("good!!");
+//        break;
+//      case 'C' :
+//        System.out.println("run!");
+//        break;
+//      case 'D' :
+//        System.out.println("slowly~");
+//        break;
+//      default:
+//        System.out.println("what?");
+//        break;
+//    }
+//  }
+//}
+//    70번문제
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int input1 = sc.nextInt();
+//    switch (input1){
+//      case 12:
+//      case 1:
+//      case 2:
+//        System.out.println("winter");
+//        break;
+//      case 3:
+//      case 4:
+//      case 5:
+//        System.out.println("spring");
+//        break;
+//      case 6:
+//      case 7:
+//      case 8:
+//        System.out.println("summer");
+//        break;
+//      case 9:
+//      case 10:
+//      case 11:
+//        System.out.println("fall");
+//        break;
+//    }
+//  }
+//}
+
+//// 1116번 문제
+//    Scanner sc = new Scanner(System.in);
+//    int input1 = sc.nextInt();
+//    int input2 = sc.nextInt();
+//    System.out.printf("%d+%d=%d\n", input1, input2,input1+input2);
+//    System.out.printf("%d-%d=%d\n", input1, input2,input1-input2);
+//    System.out.printf("%d*%d=%d\n", input1, input2,input1*input2);
+//    System.out.printf("%d/%d=%d\n", input1, input2,input1/input2);
+//  }
+//}
+// 1117번 문제
+//    Scanner sc = new Scanner(System.in);
+//    float input1 = sc.nextFloat();
+//    float input2 = sc.nextFloat();
+//    System.out.printf("%.2f\n", input1 * input2);
+//
+//  }
+//}
+// 1118번 문제
+//  Scanner sc = new Scanner(System.in);
+//  float input1 = sc.nextFloat();
+//  float input2 = sc.nextFloat();
+//    System.out.printf("%.1f\n", (input1 * input2)/2);
+//
+// }
+//}
+// 1119번 문제
+//    Scanner sc = new Scanner(System.in);
+//    float input1 = sc.nextFloat();
+//    float input2 = sc.nextFloat();
+//    float input3 = sc.nextFloat();
+//    System.out.printf("%.2f\n", (input1 + input2 + input3)/3);
+//
+//  }
+//}
+// 1120번 문제
+//        Scanner sc = new Scanner(System.in);
+//        float input1 = sc.nextFloat();
+//        float input2 = sc.nextFloat();
+//        float input3 = sc.nextFloat();
+//        System.out.printf("%.2f\n", (input1 + input2 + input3)/3);
+//      }
+//    }
+// 1121번 문제
+//    Scanner sc = new Scanner(System.in);
+//    int input1 = sc.nextInt();
+//    int input2 = sc.nextInt();
+//    System.out.printf("%d\n", (input1 % input2));
+//
+//  }
+//}
